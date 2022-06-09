@@ -1,7 +1,7 @@
 // Importing Dependencies
 const express = require ('express');
 const router = express.Router();
-const postCtrl = require('../controllers/posts')
+const postsCtrl = require('../controllers/posts')
 
 // INDUCES Routes
 //Index
