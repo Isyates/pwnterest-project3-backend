@@ -4,12 +4,13 @@
 const express = require("express")
 require("dotenv").config()
 require("./config/db")
+const Middleware = require("./middleware/mid")
 const app = express()
 const {PORT = 4200} = process.env
 //////////////////////
 // Declare Middleware
 //////////////////////
-
+Middleware(app)
 ///////////////////////
 // Declare Routes and Routers 
 ///////////////////////
