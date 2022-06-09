@@ -3,6 +3,7 @@
 ////////////////////////
 const express = require("express")
 require("dotenv").config()
+require("./config/db")
 const app = express()
 const {PORT = 4200} = process.env
 //////////////////////
