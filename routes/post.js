@@ -9,7 +9,7 @@ router.get("/", postsCtrl.index);
 //DELETE
 router.delete("/:id", postsCtrl.del);
 //UPDATE
-router.options('/:id',postsCtrl.update);
+router.put('/:id',postsCtrl.update);
 //CREATE
 router.post("/", postsCtrl.create);
 //SHOW
